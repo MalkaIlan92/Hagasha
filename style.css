@@ -1,0 +1,42 @@
+head {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+.nav-link {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.imageSwatch {
+    background: url(images/pepsi.jpg) center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: calc(120vh - 90px);
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-bottom: 5vh;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-brand:hover{
+    cursor: pointer;
+}
+
+
+.navnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
